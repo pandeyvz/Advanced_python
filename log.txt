@@ -1,0 +1,21 @@
+WARNING:root:warning
+ERROR:root:error
+CRITICAL:root:critical
+INFO:root:a new request came
+INFO:root:req processing completed
+INFO:root:a new request came
+INFO:root:req processing completed
+INFO:root:a new request came
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:/Users/RIBINHOOD pandey/PycharmProjects/Advanced_python/Exception_handling3.py", line 67, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
+INFO:root:req processing completed
+INFO:root:a new request came
+ERROR:root:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "C:/Users/RIBINHOOD pandey/PycharmProjects/Advanced_python/Exception_handling3.py", line 65, in <module>
+    x=int(input("Enter first no"))
+ValueError: invalid literal for int() with base 10: 'ten'
+INFO:root:req processing completed
